@@ -1,0 +1,13 @@
+{
+  "mode": "TRA",
+  "trips": [
+    {
+      "trip_id": "TRA_001",
+      "from_stop_id": "TRA_TAICHUNG_TRA",
+      "to_stop_id": "TRA_KAOHSIUNG_TRA",
+      "depart_time": "08:10",
+      "arrive_time": "10:30",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    }
+  ]
+}

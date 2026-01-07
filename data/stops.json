@@ -1,0 +1,272 @@
+{
+  "stops": [
+    {
+      "stop_id": "BUS_XIANGSHAN_VISITOR_CENTER",
+      "name": "向山行政中心",
+      "mode": "BUS",
+      "city": "南投",
+      "aliases": ["Xiangshan Visitor Center", "向山遊客中心"]
+    },
+    {
+      "stop_id": "BUS_SUN_MOON_LAKE",
+      "name": "日月潭",
+      "mode": "BUS",
+      "city": "南投",
+      "aliases": ["Sun Moon Lake"]
+    },
+    {
+      "stop_id": "BUS_FORMOSAN_ABORIGINAL_CULTURE_VILLAGE",
+      "name": "九族文化村",
+      "mode": "BUS",
+      "city": "南投",
+      "aliases": ["Formosan Aboriginal Culture Village", "九族"]
+    },
+    {
+      "stop_id": "BUS_NCNU",
+      "name": "暨南大學",
+      "mode": "BUS",
+      "city": "南投",
+      "aliases": ["NCNU", "國立暨南國際大學"]
+    },
+    {
+      "stop_id": "BUS_PULI_STATION",
+      "name": "埔里站",
+      "mode": "BUS",
+      "city": "南投",
+      "aliases": ["Puli Station", "埔里總站"]
+    },
+    {
+      "stop_id": "BUS_TAICHUNG_HSR",
+      "name": "台中高鐵站（公車）",
+      "mode": "BUS",
+      "city": "台中",
+      "aliases": ["HSR Taichung Station", "台中高鐵站", "新烏日"]
+    },
+    {
+      "stop_id": "BUS_TAICHUNG_TRA",
+      "name": "台中火車站（公車）",
+      "mode": "BUS",
+      "city": "台中",
+      "aliases": ["Taichung Railway Station", "台中車站"]
+    },
+    {
+      "stop_id": "BUS_TAICHUNG_GANCHENG_STATION",
+      "name": "台中干城站",
+      "mode": "BUS",
+      "city": "台中",
+      "aliases": ["Taichung Gancheng Station", "干城站"]
+    },
+
+    {
+      "stop_id": "HSR_NANGANG_HSR",
+      "name": "南港高鐵站",
+      "mode": "HSR",
+      "city": "台北",
+      "aliases": ["Nangang HSR Station"]
+    },
+    {
+      "stop_id": "HSR_TAIPEI_HSR",
+      "name": "台北高鐵站",
+      "mode": "HSR",
+      "city": "台北",
+      "aliases": ["Taipei HSR Station", "台北車站（高鐵）"]
+    },
+    {
+      "stop_id": "HSR_BANQIAO_HSR",
+      "name": "板橋高鐵站",
+      "mode": "HSR",
+      "city": "新北",
+      "aliases": ["Banqiao HSR Station"]
+    },
+    {
+      "stop_id": "HSR_TAOYUAN_HSR",
+      "name": "桃園高鐵站",
+      "mode": "HSR",
+      "city": "桃園",
+      "aliases": ["Taoyuan HSR Station"]
+    },
+    {
+      "stop_id": "HSR_HSINCHU_HSR",
+      "name": "新竹高鐵站",
+      "mode": "HSR",
+      "city": "新竹縣",
+      "aliases": ["Hsinchu HSR Station"]
+    },
+    {
+      "stop_id": "HSR_MIAOLI_HSR",
+      "name": "苗栗高鐵站",
+      "mode": "HSR",
+      "city": "苗栗",
+      "aliases": ["Miaoli HSR Station"]
+    },
+    {
+      "stop_id": "HSR_TAICHUNG_HSR",
+      "name": "台中高鐵站",
+      "mode": "HSR",
+      "city": "台中",
+      "aliases": ["HSR Taichung Station", "新烏日"]
+    },
+    {
+      "stop_id": "HSR_CHANGHUA_HSR",
+      "name": "彰化高鐵站",
+      "mode": "HSR",
+      "city": "彰化",
+      "aliases": ["Changhua HSR Station"]
+    },
+    {
+      "stop_id": "HSR_YUNLIN_HSR",
+      "name": "雲林高鐵站",
+      "mode": "HSR",
+      "city": "雲林",
+      "aliases": ["Yunlin HSR Station"]
+    },
+    {
+      "stop_id": "HSR_CHIAYI_HSR",
+      "name": "嘉義高鐵站",
+      "mode": "HSR",
+      "city": "嘉義縣",
+      "aliases": ["Chiayi HSR Station"]
+    },
+    {
+      "stop_id": "HSR_TAINAN_HSR",
+      "name": "台南高鐵站",
+      "mode": "HSR",
+      "city": "台南",
+      "aliases": ["Tainan HSR Station"]
+    },
+    {
+      "stop_id": "HSR_KAOHSIUNG_HSR",
+      "name": "高雄高鐵站",
+      "mode": "HSR",
+      "city": "高雄",
+      "aliases": ["Kaohsiung HSR Station", "左營"]
+    },
+
+    {
+      "stop_id": "TRA_KEELUNG_TRA",
+      "name": "基隆火車站",
+      "mode": "TRA",
+      "city": "基隆",
+      "aliases": ["Keelung Railway Station"]
+    },
+    {
+      "stop_id": "TRA_TAIPEI_TRA",
+      "name": "台北火車站",
+      "mode": "TRA",
+      "city": "台北",
+      "aliases": ["Taipei Railway Station", "台北車站"]
+    },
+    {
+      "stop_id": "TRA_BANQIAO_TRA",
+      "name": "板橋火車站",
+      "mode": "TRA",
+      "city": "新北",
+      "aliases": ["Banqiao Railway Station"]
+    },
+    {
+      "stop_id": "TRA_TAOYUAN_TRA",
+      "name": "桃園火車站",
+      "mode": "TRA",
+      "city": "桃園",
+      "aliases": ["Taoyuan Railway Station"]
+    },
+    {
+      "stop_id": "TRA_HSINCHU_TRA",
+      "name": "新竹火車站",
+      "mode": "TRA",
+      "city": "新竹市",
+      "aliases": ["Hsinchu Railway Station"]
+    },
+    {
+      "stop_id": "TRA_ZHUPEI_TRA",
+      "name": "竹北火車站",
+      "mode": "TRA",
+      "city": "新竹縣",
+      "aliases": ["Zhubei Railway Station"]
+    },
+    {
+      "stop_id": "TRA_MIAOLI_TRA",
+      "name": "苗栗火車站",
+      "mode": "TRA",
+      "city": "苗栗",
+      "aliases": ["Miaoli Railway Station"]
+    },
+    {
+      "stop_id": "TRA_TAICHUNG_TRA",
+      "name": "台中火車站",
+      "mode": "TRA",
+      "city": "台中",
+      "aliases": ["Taichung Railway Station", "台中車站"]
+    },
+    {
+      "stop_id": "TRA_CHANGHUA_TRA",
+      "name": "彰化火車站",
+      "mode": "TRA",
+      "city": "彰化",
+      "aliases": ["Changhua Railway Station"]
+    },
+    {
+      "stop_id": "TRA_NANTOU_JIJI",
+      "name": "集集火車站",
+      "mode": "TRA",
+      "city": "南投",
+      "aliases": ["Jiji Railway Station"]
+    },
+    {
+      "stop_id": "TRA_YUNLIN_DOULIU",
+      "name": "斗六火車站",
+      "mode": "TRA",
+      "city": "雲林",
+      "aliases": ["Douliu Railway Station"]
+    },
+    {
+      "stop_id": "TRA_CHIAYI_TRA",
+      "name": "嘉義火車站",
+      "mode": "TRA",
+      "city": "嘉義市",
+      "aliases": ["Chiayi Railway Station"]
+    },
+    {
+      "stop_id": "TRA_TAINAN_TRA",
+      "name": "台南火車站",
+      "mode": "TRA",
+      "city": "台南",
+      "aliases": ["Tainan Railway Station"]
+    },
+    {
+      "stop_id": "TRA_KAOHSIUNG_TRA",
+      "name": "高雄火車站",
+      "mode": "TRA",
+      "city": "高雄",
+      "aliases": ["Kaohsiung Railway Station"]
+    },
+    {
+      "stop_id": "TRA_PINGTUNG_TRA",
+      "name": "屏東火車站",
+      "mode": "TRA",
+      "city": "屏東",
+      "aliases": ["Pingtung Railway Station"]
+    },
+    {
+      "stop_id": "TRA_YILAN_TRA",
+      "name": "宜蘭火車站",
+      "mode": "TRA",
+      "city": "宜蘭",
+      "aliases": ["Yilan Railway Station"]
+    },
+    {
+      "stop_id": "TRA_HUALIEN_TRA",
+      "name": "花蓮火車站",
+      "mode": "TRA",
+      "city": "花蓮",
+      "aliases": ["Hualien Railway Station"]
+    },
+    {
+      "stop_id": "TRA_TAITUNG_TRA",
+      "name": "台東火車站",
+      "mode": "TRA",
+      "city": "台東",
+      "aliases": ["Taitung Railway Station"]
+    }
+  ]
+}

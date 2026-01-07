@@ -1,0 +1,13 @@
+{
+  "mode": "HSR",
+  "trips": [
+    {
+      "trip_id": "HSR_001",
+      "from_stop_id": "HSR_TAICHUNG_HSR",
+      "to_stop_id": "HSR_KAOHSIUNG_HSR",
+      "depart_time": "08:00",
+      "arrive_time": "08:45",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    }
+  ]
+}
