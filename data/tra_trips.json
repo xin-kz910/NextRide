@@ -2,12 +2,212 @@
   "mode": "TRA",
   "trips": [
     {
-      "trip_id": "TRA_001",
+      "trip_id": "TRA_TC_KS_111",
       "from_stop_id": "TRA_TAICHUNG_TRA",
       "to_stop_id": "TRA_KAOHSIUNG_TRA",
-      "depart_time": "08:10",
-      "arrive_time": "10:30",
-      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+      "depart_time": "09:51",
+      "arrive_time": "11:57",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_TC_KS_109",
+      "from_stop_id": "TRA_TAICHUNG_TRA",
+      "to_stop_id": "TRA_KAOHSIUNG_TRA",
+      "depart_time": "10:30",
+      "arrive_time": "13:04",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_TC_KS_115",
+      "from_stop_id": "TRA_TAICHUNG_TRA",
+      "to_stop_id": "TRA_KAOHSIUNG_TRA",
+      "depart_time": "11:23",
+      "arrive_time": "14:11",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_TC_KS_117",
+      "from_stop_id": "TRA_TAICHUNG_TRA",
+      "to_stop_id": "TRA_KAOHSIUNG_TRA",
+      "depart_time": "12:26",
+      "arrive_time": "14:56",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_TC_KS_121",
+      "from_stop_id": "TRA_TAICHUNG_TRA",
+      "to_stop_id": "TRA_KAOHSIUNG_TRA",
+      "depart_time": "13:20",
+      "arrive_time": "15:55",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_TC_KS_123",
+      "from_stop_id": "TRA_TAICHUNG_TRA",
+      "to_stop_id": "TRA_KAOHSIUNG_TRA",
+      "depart_time": "14:20",
+      "arrive_time": "16:58",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_TC_KS_165",
+      "from_stop_id": "TRA_TAICHUNG_TRA",
+      "to_stop_id": "TRA_KAOHSIUNG_TRA",
+      "depart_time": "15:12",
+      "arrive_time": "17:11",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_TC_KS_129",
+      "from_stop_id": "TRA_TAICHUNG_TRA",
+      "to_stop_id": "TRA_KAOHSIUNG_TRA",
+      "depart_time": "16:17",
+      "arrive_time": "18:48",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_TC_KS_137",
+      "from_stop_id": "TRA_TAICHUNG_TRA",
+      "to_stop_id": "TRA_KAOHSIUNG_TRA",
+      "depart_time": "17:26",
+      "arrive_time": "19:25",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_TC_KS_175",
+      "from_stop_id": "TRA_TAICHUNG_TRA",
+      "to_stop_id": "TRA_KAOHSIUNG_TRA",
+      "depart_time": "18:20",
+      "arrive_time": "21:00",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_TC_KS_139",
+      "from_stop_id": "TRA_TAICHUNG_TRA",
+      "to_stop_id": "TRA_KAOHSIUNG_TRA",
+      "depart_time": "19:20",
+      "arrive_time": "21:51",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_TC_KS_143",
+      "from_stop_id": "TRA_TAICHUNG_TRA",
+      "to_stop_id": "TRA_KAOHSIUNG_TRA",
+      "depart_time": "19:52",
+      "arrive_time": "22:00",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_TC_KS_149",
+      "from_stop_id": "TRA_TAICHUNG_TRA",
+      "to_stop_id": "TRA_KAOHSIUNG_TRA",
+      "depart_time": "21:19",
+      "arrive_time": "23:56",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_KS_PT_423",
+      "from_stop_id": "TRA_KAOHSIUNG_TRA",
+      "to_stop_id": "TRA_PINGTUNG_TRA",
+      "depart_time": "11:00",
+      "arrive_time": "11:16",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_KS_PT_111",
+      "from_stop_id": "TRA_KAOHSIUNG_TRA",
+      "to_stop_id": "TRA_PINGTUNG_TRA",
+      "depart_time": "12:00",
+      "arrive_time": "12:14",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_KS_PT_109",
+      "from_stop_id": "TRA_KAOHSIUNG_TRA",
+      "to_stop_id": "TRA_PINGTUNG_TRA",
+      "depart_time": "13:06",
+      "arrive_time": "13:29",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_KS_PT_131",
+      "from_stop_id": "TRA_KAOHSIUNG_TRA",
+      "to_stop_id": "TRA_PINGTUNG_TRA",
+      "depart_time": "14:02",
+      "arrive_time": "14:16",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_KS_PT_117",
+      "from_stop_id": "TRA_KAOHSIUNG_TRA",
+      "to_stop_id": "TRA_PINGTUNG_TRA",
+      "depart_time": "14:58",
+      "arrive_time": "15:17",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_KS_PT_317",
+      "from_stop_id": "TRA_KAOHSIUNG_TRA",
+      "to_stop_id": "TRA_PINGTUNG_TRA",
+      "depart_time": "16:05",
+      "arrive_time": "16:22",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_KS_PT_165",
+      "from_stop_id": "TRA_KAOHSIUNG_TRA",
+      "to_stop_id": "TRA_PINGTUNG_TRA",
+      "depart_time": "17:13",
+      "arrive_time": "17:26",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_KS_PT_125",
+      "from_stop_id": "TRA_KAOHSIUNG_TRA",
+      "to_stop_id": "TRA_PINGTUNG_TRA",
+      "depart_time": "17:56",
+      "arrive_time": "18:18",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_KS_PT_323",
+      "from_stop_id": "TRA_KAOHSIUNG_TRA",
+      "to_stop_id": "TRA_PINGTUNG_TRA",
+      "depart_time": "19:00",
+      "arrive_time": "19:16",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_KS_PT_135",
+      "from_stop_id": "TRA_KAOHSIUNG_TRA",
+      "to_stop_id": "TRA_PINGTUNG_TRA",
+      "depart_time": "20:00",
+      "arrive_time": "20:23",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_KS_PT_175",
+      "from_stop_id": "TRA_KAOHSIUNG_TRA",
+      "to_stop_id": "TRA_PINGTUNG_TRA",
+      "depart_time": "21:03",
+      "arrive_time": "21:25",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_KS_PT_143",
+      "from_stop_id": "TRA_KAOHSIUNG_TRA",
+      "to_stop_id": "TRA_PINGTUNG_TRA",
+      "depart_time": "22:02",
+      "arrive_time": "22:20",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "TRA_KS_PT_145",
+      "from_stop_id": "TRA_KAOHSIUNG_TRA",
+      "to_stop_id": "TRA_PINGTUNG_TRA",
+      "depart_time": "23:05",
+      "arrive_time": "23:25",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
     }
   ]
 }

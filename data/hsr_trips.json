@@ -2,12 +2,108 @@
   "mode": "HSR",
   "trips": [
     {
-      "trip_id": "HSR_001",
+      "trip_id": "HSR_TC_KS_615",
       "from_stop_id": "HSR_TAICHUNG_HSR",
       "to_stop_id": "HSR_KAOHSIUNG_HSR",
-      "depart_time": "08:00",
-      "arrive_time": "08:45",
-      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+      "depart_time": "09:48",
+      "arrive_time": "10:45",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "HSR_TC_KS_621",
+      "from_stop_id": "HSR_TAICHUNG_HSR",
+      "to_stop_id": "HSR_KAOHSIUNG_HSR",
+      "depart_time": "10:48",
+      "arrive_time": "11:45",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "HSR_TC_KS_627",
+      "from_stop_id": "HSR_TAICHUNG_HSR",
+      "to_stop_id": "HSR_KAOHSIUNG_HSR",
+      "depart_time": "11:48",
+      "arrive_time": "12:45",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "HSR_TC_KS_633",
+      "from_stop_id": "HSR_TAICHUNG_HSR",
+      "to_stop_id": "HSR_KAOHSIUNG_HSR",
+      "depart_time": "12:48",
+      "arrive_time": "13:45",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "HSR_TC_KS_639",
+      "from_stop_id": "HSR_TAICHUNG_HSR",
+      "to_stop_id": "HSR_KAOHSIUNG_HSR",
+      "depart_time": "13:48",
+      "arrive_time": "14:45",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "HSR_TC_KS_645",
+      "from_stop_id": "HSR_TAICHUNG_HSR",
+      "to_stop_id": "HSR_KAOHSIUNG_HSR",
+      "depart_time": "14:48",
+      "arrive_time": "15:45",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "HSR_TC_KS_651",
+      "from_stop_id": "HSR_TAICHUNG_HSR",
+      "to_stop_id": "HSR_KAOHSIUNG_HSR",
+      "depart_time": "15:48",
+      "arrive_time": "16:45",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "HSR_TC_KS_657",
+      "from_stop_id": "HSR_TAICHUNG_HSR",
+      "to_stop_id": "HSR_KAOHSIUNG_HSR",
+      "depart_time": "16:48",
+      "arrive_time": "17:45",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "HSR_TC_KS_663",
+      "from_stop_id": "HSR_TAICHUNG_HSR",
+      "to_stop_id": "HSR_KAOHSIUNG_HSR",
+      "depart_time": "17:48",
+      "arrive_time": "18:45",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "HSR_TC_KS_669",
+      "from_stop_id": "HSR_TAICHUNG_HSR",
+      "to_stop_id": "HSR_KAOHSIUNG_HSR",
+      "depart_time": "18:48",
+      "arrive_time": "19:45",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "HSR_TC_KS_675",
+      "from_stop_id": "HSR_TAICHUNG_HSR",
+      "to_stop_id": "HSR_KAOHSIUNG_HSR",
+      "depart_time": "19:48",
+      "arrive_time": "20:45",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "HSR_TC_KS_681",
+      "from_stop_id": "HSR_TAICHUNG_HSR",
+      "to_stop_id": "HSR_KAOHSIUNG_HSR",
+      "depart_time": "20:48",
+      "arrive_time": "21:45",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    },
+    {
+      "trip_id": "HSR_TC_KS_687",
+      "from_stop_id": "HSR_TAICHUNG_HSR",
+      "to_stop_id": "HSR_KAOHSIUNG_HSR",
+      "depart_time": "21:48",
+      "arrive_time": "22:45",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
     }
   ]
 }

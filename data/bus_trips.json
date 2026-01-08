@@ -2,11 +2,163 @@
   "mode": "BUS",
   "trips": [
     {
-      "trip_id": "BUS_001",
+      "trip_id": "BUS_HSR_001",
       "from_stop_id": "BUS_NCNU",
       "to_stop_id": "BUS_TAICHUNG_HSR",
-      "depart_time": "08:00",
-      "arrive_time": "10:30",
+      "depart_time": "10:00",
+      "arrive_time": "11:00",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    },
+    {
+      "trip_id": "BUS_HSR_002",
+      "from_stop_id": "BUS_NCNU",
+      "to_stop_id": "BUS_TAICHUNG_HSR",
+      "depart_time": "10:20",
+      "arrive_time": "11:20",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    },
+    {
+      "trip_id": "BUS_HSR_003",
+      "from_stop_id": "BUS_NCNU",
+      "to_stop_id": "BUS_TAICHUNG_HSR",
+      "depart_time": "10:30",
+      "arrive_time": "11:30",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    },
+    {
+      "trip_id": "BUS_HSR_004",
+      "from_stop_id": "BUS_NCNU",
+      "to_stop_id": "BUS_TAICHUNG_HSR",
+      "depart_time": "11:00",
+      "arrive_time": "12:00",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    },
+    {
+      "trip_id": "BUS_HSR_005",
+      "from_stop_id": "BUS_NCNU",
+      "to_stop_id": "BUS_TAICHUNG_HSR",
+      "depart_time": "11:20",
+      "arrive_time": "12:20",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    },
+    {
+      "trip_id": "BUS_HSR_006",
+      "from_stop_id": "BUS_NCNU",
+      "to_stop_id": "BUS_TAICHUNG_HSR",
+      "depart_time": "12:00",
+      "arrive_time": "13:00",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    },
+    {
+      "trip_id": "BUS_HSR_007",
+      "from_stop_id": "BUS_NCNU",
+      "to_stop_id": "BUS_TAICHUNG_HSR",
+      "depart_time": "12:30",
+      "arrive_time": "13:20",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    },
+    {
+      "trip_id": "BUS_HSR_008",
+      "from_stop_id": "BUS_NCNU",
+      "to_stop_id": "BUS_TAICHUNG_HSR",
+      "depart_time": "14:00",
+      "arrive_time": "15:00",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    },
+    {
+      "trip_id": "BUS_HSR_009",
+      "from_stop_id": "BUS_NCNU",
+      "to_stop_id": "BUS_TAICHUNG_HSR",
+      "depart_time": "15:00",
+      "arrive_time": "16:00",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    },
+    {
+      "trip_id": "BUS_HSR_010",
+      "from_stop_id": "BUS_NCNU",
+      "to_stop_id": "BUS_TAICHUNG_HSR",
+      "depart_time": "15:50",
+      "arrive_time": "16:50",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    },
+    {
+      "trip_id": "BUS_HSR_011",
+      "from_stop_id": "BUS_NCNU",
+      "to_stop_id": "BUS_TAICHUNG_HSR",
+      "depart_time": "16:00",
+      "arrive_time": "17:00",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    },
+    {
+      "trip_id": "BUS_HSR_012",
+      "from_stop_id": "BUS_NCNU",
+      "to_stop_id": "BUS_TAICHUNG_HSR",
+      "depart_time": "16:20",
+      "arrive_time": "17:20",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    },
+    {
+      "trip_id": "BUS_HSR_013",
+      "from_stop_id": "BUS_NCNU",
+      "to_stop_id": "BUS_TAICHUNG_HSR",
+      "depart_time": "17:00",
+      "arrive_time": "18:00",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    },
+    {
+      "trip_id": "BUS_TRA_001",
+      "from_stop_id": "BUS_NCNU",
+      "to_stop_id": "BUS_TAICHUNG_TRA",
+      "depart_time": "10:00",
+      "arrive_time": "11:22",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    },
+    {
+      "trip_id": "BUS_TRA_002",
+      "from_stop_id": "BUS_NCNU",
+      "to_stop_id": "BUS_TAICHUNG_TRA",
+      "depart_time": "11:00",
+      "arrive_time": "12:22",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    },
+    {
+      "trip_id": "BUS_TRA_003",
+      "from_stop_id": "BUS_NCNU",
+      "to_stop_id": "BUS_TAICHUNG_TRA",
+      "depart_time": "12:00",
+      "arrive_time": "13:22",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    },
+    {
+      "trip_id": "BUS_TRA_004",
+      "from_stop_id": "BUS_NCNU",
+      "to_stop_id": "BUS_TAICHUNG_TRA",
+      "depart_time": "14:00",
+      "arrive_time": "15:22",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    },
+    {
+      "trip_id": "BUS_TRA_005",
+      "from_stop_id": "BUS_NCNU",
+      "to_stop_id": "BUS_TAICHUNG_TRA",
+      "depart_time": "15:00",
+      "arrive_time": "16:22",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    },
+    {
+      "trip_id": "BUS_TRA_006",
+      "from_stop_id": "BUS_NCNU",
+      "to_stop_id": "BUS_TAICHUNG_TRA",
+      "depart_time": "16:00",
+      "arrive_time": "17:22",
+      "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+    },
+    {
+      "trip_id": "BUS_TRA_007",
+      "from_stop_id": "BUS_NCNU",
+      "to_stop_id": "BUS_TAICHUNG_TRA",
+      "depart_time": "17:00",
+      "arrive_time": "18:22",
       "service_days": ["Mon", "Tue", "Wed", "Thu", "Fri"]
     }
   ]
