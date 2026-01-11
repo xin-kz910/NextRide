@@ -39,10 +39,10 @@
   - 確認後端狀態 `http://127.0.0.1:8000/health`
   - 查詢測試 `http://127.0.0.1:8000/docs`
   - 測資範例
-      ```
+  ```
       {
         "from_stop_id": "BUS_NCNU",
         "to_stop_id": "BUS_TAICHUNG_TRA",
         "after_time": "10:00"
       }
-      ```
+  ```
