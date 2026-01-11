@@ -19,6 +19,8 @@
   - TRA KS→PT：目前收錄每日行駛班次（13班），發車時間區間 11:00–23:05
 
 ### phase3 後端
+- `main.py` 主後端
+- `requirements.txt` 需要安裝的套件
 - `data_loader.py`
   - 讀取 `data/stops.json` 與 `data/*_trips.json`
   - 提供 `load_datastore()` 回傳 `DataStore`
@@ -31,3 +33,16 @@
 - `manual_test.py`
   - 人工測試入口
   - 驗證資料是否正確載入與查詢邏輯是否正確
+ 
+## 測試方式
+`python -m uvicorn backend.main:app --reload` 
+  - 確認後端狀態 `http://127.0.0.1:8000/health`
+  - 查詢測試 `http://127.0.0.1:8000/docs`
+    - 測資範例
+      ```
+      {
+        "from_stop_id": "BUS_NCNU",
+        "to_stop_id": "BUS_TAICHUNG_TRA",
+        "after_time": "10:00"
+      }
+      ```
