@@ -38,7 +38,7 @@
 `python -m uvicorn backend.main:app --reload` 
   - 確認後端狀態 `http://127.0.0.1:8000/health`
   - 查詢測試 `http://127.0.0.1:8000/docs`
-    - 測資範例
+  - 測資範例
       ```
       {
         "from_stop_id": "BUS_NCNU",
