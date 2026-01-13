@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NextRide｜查詢</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Arial; margin: 24px; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 16px; max-width: 720px; }
+    .row { display: flex; gap: 12px; flex-wrap: wrap; }
+    label { display: block; font-size: 14px; margin-bottom: 6px; }
+    select, input { padding: 8px 10px; border: 1px solid #ccc; border-radius: 8px; min-width: 220px; }
+    button { padding: 10px 14px; border: 1px solid #ccc; border-radius: 10px; cursor: pointer; }
+    .muted { color: #666; font-size: 14px; }
+    .section { margin-top: 14px; }
+  </style>
+</head>
+
+<body>
+  <h1>NextRide 查詢</h1>
+  <p class="muted">Phase 4：先做畫面＋假資料串接，再換成真的 /search</p>
+
+  <div class="card">
+    <h2>查詢條件</h2>
+
+    <!-- 這個 form 是「收集使用者輸入」的容器 -->
+    <form id="searchForm" class="section">
+      <div class="row">
+        <div>
+          <label for="fromStop">From（起點）</label>
+            <select id="fromStop" required>
+                <option value="">載入中...</option>
+            </select>
+        </div>
+
+        <div>
+          <label for="toStop">To（終點）</label>
+            <select id="toStop" required>
+                <option value="">載入中...</option>
+            </select>
+        </div>
+      </div>
+
+      <div class="row section">
+        <div>
+          <label for="afterTime">出發時間（after_time）</label>
+          <input id="afterTime" type="time" value="10:00" required />
+        </div>
+
+        <div>
+          <label for="bufferMin">轉乘緩衝（分鐘）</label>
+          <input id="bufferMin" type="number" min="0" value="10" required />
+        </div>
+      </div>
+
+      <div class="row section">
+        <button type="submit">搜尋</button>
+        <button type="button" id="btnSwap">交換起訖</button>
+        <button type="button" id="btnClear">清除</button>
+      </div>
+    </form>
+
+    <div class="section">
+      <h2>查詢結果</h2>
+      <div id="resultArea" class="muted">尚未搜尋</div>
+    </div>
+  </div>
+
+  <script src="./search.js"></script>
+</body>
+</html>
