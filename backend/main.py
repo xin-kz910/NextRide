@@ -1,5 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel  # 要求格式（裝前端資料的盒子）
+from fastapi.responses import FileResponse
+from pathlib import Path
 
 # B 的工具
 from backend.app.core.data_loader import load_datastore  # 讀全部的資料 (stops / bus / tra / hsr)
@@ -20,6 +22,27 @@ class SearchRequest(BaseModel):
 def health():
     return {"ok": True}
 
+# 可以從檔案雙擊打開
+@app.get("/")
+def index():
+    # 專案根目錄
+    repo_root = Path(__file__).resolve().parents[1]
+    # frontend/search.html
+    html_path = repo_root / "frontend" / "search.html"
+    return FileResponse(html_path)
+
+# 讓前端拿到 stop 瀏覽器打開 http://127.0.0.1:8000/stops 可以看到 json
+@app.get("/stops")
+def get_stops():
+    store = load_datastore()
+    return {"stops": store.stops}
+
+
+@app.get("/search.js")
+def search_js():
+    repo_root = Path(__file__).resolve().parents[1]
+    js_path = repo_root / "frontend" / "search.js"
+    return FileResponse(js_path)
 
 @app.post("/search")
 def search(req: SearchRequest):
@@ -66,7 +89,7 @@ def search(req: SearchRequest):
                             "to": t["to_stop_id"],
                             "depart": t["depart_time"],
                             "arrive": t["arrive_time"],
-                        }
+                        }   
                     ]
                 }
             )
