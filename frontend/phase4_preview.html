@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NextRide Phase4 Preview</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Arial; margin: 24px; }
+    .row { display: flex; gap: 12px; align-items: center; margin-bottom: 16px; flex-wrap: wrap; }
+    .plans { display: grid; gap: 12px; max-width: 860px; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 12px; background: #fff; }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; border: 1px solid #ccc; white-space: nowrap; }
+    .green { background: #e9fbe9; border-color: #7bd67b; }
+    .yellow { background: #fff8db; border-color: #f1c232; }
+    .red { background: #ffe6e6; border-color: #ff6b6b; }
+    .seg { padding: 8px; border-radius: 10px; background: #f7f7f7; margin-top: 8px; }
+    .muted { color: #666; font-size: 12px; }
+    .hint { color: #555; font-size: 12px; margin-top: 8px; }
+    input[type="number"] { padding: 6px 8px; border: 1px solid #ccc; border-radius: 8px; }
+    button { padding: 8px 10px; border: 1px solid #ccc; border-radius: 10px; background: #fff; cursor: pointer; }
+    button:hover { background: #f7f7f7; }
+  </style>
+</head>
+<body>
+  <h1>Phase 4 Preview（假資料渲染）</h1>
+
+  <div class="row">
+    <label for="buffer">buffer(分鐘)：</label>
+    <input id="buffer" type="number" value="10" min="0" max="60" step="1" style="width:92px" />
+    <button id="btnRender" type="button">重新渲染</button>
+    <span id="status" class="hint" aria-live="polite"></span>
+  </div>
+
+  <div id="app" class="plans" aria-live="polite"></div>
+
+  <script type="module" src="./render_plans.js"></script>
+</body>
+</html>
